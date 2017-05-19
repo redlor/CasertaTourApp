@@ -1,0 +1,291 @@
+<resources>
+    <string name="app_name">Tour App</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="monuments_fragment">Monuments</string>
+    <string name="restaurants_fragment">Restaurants</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hotels_fragment">Hotels</string>
+    <string name="shopping_fragment">Shopping</string>
+
+    <string name="royal_palace_description">The Royal Palace of Caserta (Italian: Reggia di Caserta; Neapolitan: Reggia \'e Caserta)
+        is a former royal residence in Caserta, southern Italy, constructed for the Bourbon kings of Naples. It is one of the largest palaces erected in Europe
+        during the 18th century. In 1997, the palace was designated a UNESCO World Heritage Site; its nomination described it as "the swan song of the spectacular
+        art of the Baroque, from which it adopted all the features needed to create the illusions of multidirectional space".[1] In terms of volume,
+        the Royal Palace of Caserta is the largest royal residence in the world[2] with over 2 million m³[3] and covering an area of about 235,000 m². \n
+        \n
+    History\n
+        \n
+        The construction of the palace was begun in 1752 for Charles VII of Naples, who worked closely with his architect, Luigi Vanvitelli.
+        When Charles saw Vanvitelli\'s grandly scaled model for Caserta, it filled him with emotion "fit to tear his heart from his breast".
+        In the end, he never slept a night at the Reggia, as he abdicated in 1759 to become King of Spain, and the project was carried to only partial completion
+        for his third son and successor, Ferdinand IV of Naples.
+        The political and social model for Vanvitelli\'s palace was Versailles, which, though strikingly different in its variety and disposition, solves similar problems of
+        assembling and providing for king, court and government in a massive building with the social structure of a small city, confronting a baroque view of a highly
+        subordinated nature, la nature forcée. The population of Caserta Vecchia was moved 10 kilometers to provide a work force closer to the palace.
+        A silk manufactory at San Leucio resort was disguised as a pavilion in the immense parkland.
+        Another of the king\'s primary objects was to have a magnificent new royal court and administrative center for the kingdom in a location protected from sea attack.
+        and distant from the revolt-prone and congested city of Naples. To provide the king with suitable protection, troop barracks were housed within the palace.
+
+        The Royal Palace of Madrid, where Charles had grown up, which had been devised by Filippo Juvarra for Charles\' father, Philip V of Spain, and Charlottenburg Palace
+        provided models. A spacious octagonal vestibule seems to have been inspired by Basilica di Santa Maria della Salute in Venice, while the palatine chapel is
+        most often compared to the Royal Chapel at Versailles. Vanvitelli died in 1773: the construction was continued by his son Carlo and then by other architects;
+        but the elder Vanvitelli\'s original project, which included a vast pair of frontal wings similar to Bernini\'s wings at St. Peter\'s, was never finished. \n
+        Source Wikipedia.\n
+        Official website:
+    </string>
+    <string name="royal_palace_website">http://www.reggiadicaserta.beniculturali.it/</string>
+
+    <string name="san_leucio_description">San Leucio is a frazione of the comune of Caserta, in the region of Campania in southern Italy.
+        It is most notable for a resort developed around an old silk factory, included in the UNESCO World Heritage sites list in 1997.\n
+         \n
+    History\n
+        \n
+        In 1750 Charles VII of Naples, advised by minister Bernardo Tanucci, selected this place, originally the site of a royal hunting lodge for the Acquaviva family
+        (now restored, and known as Palazzo del Belvedere), for an unusual social and technological experiment, a different model of production based on technical
+        innovation and alert to the needs of workers. In its early days, San Leucio resort was a place for pleasure and a royal hunting preserve,
+        built on the ruins of Saint Leucio church, where an aqueduct carried water to the waterfalls of the Royal Caserta Palace, designed by Vanvitelli.
+        The son of Charles, Ferdinand I, had a hunting lodge built for himself on this site. He was a very skillful hunter who disliked the pleasures and luxury of court
+        life. It was here that Charles and the young king Ferdinand built a silk factory.
+        The complex was transformed into a silk production site and industrial buildings were added, which was quite unique in late 18th-century Europe.
+        Architect Francesco Collecini designed these industrial buildings, where noisy looms were installed next to royal apartments and a sitting room became a chapel for the workers.
+        A new village was built for workers\' residences, and a large community of silk weavers grew into this industrial town, which in 1789 was deemed the "Real Colonia dei Setaioli" (the Silk Weavers Royal Colony).
+        The king had planned to expand it into a true new city, called Ferdinandopoli, but the project was halted by the French invasion.
+        In San Leucio the most advanced technologies known in Europe at the time were used throughout the process to obtain the finished products.
+        The members of the colony had a privileged status with a modern social security system.
+        The revolution of 1799 stopped the complete realization of the Ferdinandopoli, but San Leucio resort had further growth during the French rule from 1806 to 1815.\n
+        Source Wikipedia.\n
+        Official website:
+    </string>
+    <string name="san_leucio_website">http://www.comune.caserta.it/pagina698_belvedere-di-san-leucio.html</string>
+
+    <string name="casertavecchia_description">Casertavecchia, a frazione of Caserta, is an Italian medieval village that lies at the foot of
+        the Tifatini Mountains located 10 km north-east of the City of Caserta at an altitude of approximately 401 meters. Its name translated from Italian means
+        "Old Caserta".\n
+         \n
+    History\n
+        \n
+        The origins of Casertavecchia are uncertain, but according to the Benedictine monk, Erchempert, in Ystoriola Langobardorum Beneventi degentium,
+        the village was founded in 861 AD. The previous Roman town was called "Casam Irtam" (from the Latin meaning "home village located above").
+        The village was initially conquered and ruled by the Lombards. Subsequent Saracen depredations led to the fortified mountain village becoming the Bishopric for
+        the province. Under Norman domination, the village began the construction of its cathedral, dedicated to St. Michael the Archangel.
+        During this period it was controlled by the Swabian, Riccardo di Lauro (1232–1266), who increased the political power of the town.
+        The Aragons conquered the village in 1442 which began its long and gradual decline in importance. Eventually, Casertavecchia would host only the local
+        seminary and the Bishop\'s seat. Under the rule of the Bourbons, major construction began taking place in the city of Caserta. By 1842 political rule
+        had entirely moved to the great palace in the larger city, with the Casertan diocese finally relocating from Casertavecchia to Caserta.
+        On October 1, 1860, in the battle of the Volturna, the Neapolitans made one of their last stands of the battle in front of Caserta Vecchia,
+        400–500 Neapolitan soldiers surrendering to Giuseppe Garibaldi in one of the decisive battles of the Second Italian Independence War.\n
+        Source Wikipedia.\n
+        Official website:
+    </string>
+    <string name="casertavecchia_website">http://www.casertavecchia.net/</string>
+
+
+    <string name="pata_pan_description">Fast food \n
+Restaurant features:\n Delivery, Takeout, Reservations, Seating, Waitstaff, Parking Available, Highchairs Available, Serves Alcohol, Wine and Beer, Cash Only\n
+        Monday 12:30–15, 18:30–02\n
+        Tuesday Closed\n
+Wednesday- Saturday	12:30–15, 18:30–02\n
+Sunday 12:30–15, 18:30–00\n
+    Tripadvisor:\n</string>
+    <string name="pata_pan_tripadvisor">https://www.tripadvisor.co.uk/Restaurant_Review-g194713-d9704600-Reviews-Pata_Pan-Caserta_Province_of_Caserta_Campania.html</string>
+    <string name="il_cantuccio_description"> Italian, Mediterranean, Pub\n
+Restaurant features:\n  Accepts Visa, Takeout, Reservations, Seating, Waitstaff, Highchairs Available, Wheelchair Accessible, Serves Alcohol, Wine and Beer,
+        Accepts American Express, Accepts Mastercard, Digital Payments\n
+Open Hours\n
+Sunday\n
+12:30 - 15:00\n
+20:00 - 23:59\n
+Monday\n
+12:30 - 15:00\n
+Tuesday-Friday\n
+20:00 - 23:59\n
+Saturday\n
+20:00 - 01:00\n
+Tripadvisor:\n</string>
+    <string name="il_cantuccio_tripadvisor">https://www.tripadvisor.co.uk/Restaurant_Review-g194713-d8372560-Reviews-Il_Cantuccio_Pub_Beer-Caserta_Province_of_Caserta_Campania.html</string>
+    <string name="i_masanielli_description">Pizza, Mediterranean, Vegetarian Friendly, Vegan Options, Gluten Free Options\n
+        Restaurant features:  Takeout, Seating, Waitstaff, Television, Highchairs Available, Serves Alcohol\n
+Open Hours\n
+Tuesday-Sunday\n
+12:00 - 00:30\n
+Tripadvisor:\n    </string>
+    <string name="i_masanielli_tripadvisor">https://www.tripadvisor.co.uk/Restaurant_Review-g194713-d3710517-Reviews-Pizzeria_I_Masanielli-Caserta_Province_of_Caserta_Campania.html</string>
+    <string name="meburger_description"> Brew Pub, Barbecue, Pub, Vegetarian Friendly\n
+Restaurant features  Outdoor Seating, Takeout, Reservations, Seating, Waitstaff, Highchairs Available, Wheelchair Accessible, Serves Alcohol, Free Wifi\n
+Open Hours\n
+Monday-Sunday\n
+19:00 - 15:30\n
+Tripadvisor:\n       </string>
+    <string name="meburger_tripadvisor">https://www.tripadvisor.co.uk/Restaurant_Review-g194713-d8652153-Reviews-Meburger-Caserta_Province_of_Caserta_Campania.html</string>
+    <string name="vigna_re_description"> Italian, Seafood\n
+Restaurant features:\n
+        Reservations, Outdoor Seating, Seating, Waitstaff, Parking Available, Highchairs Available, Wheelchair Accessible, Serves Alcohol, Free Wifi\n
+        Monday 13–15:30, 19:30–00\n
+        Tuesday Closed\n
+Wednesday - Sunday	13–15:30, 19:30–00\n
+Tripadvisor:\n         </string>
+    <string name="vigna_re_tripadvisor">https://www.tripadvisor.co.uk/Restaurant_Review-g2399098-d6158120-Reviews-Moderna_Vineria_Vigna_Re-San_Leucio_Caserta_Province_of_Caserta_Campania.html</string>
+
+    <string name="guggenheim_description"> Bar, European, Pub, Brew Pub\n
+Restaurant features:\n
+        Takeout, Reservations, Seating, Waitstaff, Parking Available, Television, Wheelchair Accessible, Serves Alcohol, Full Bar\n
+Open Hours\n
+Monday-Sunday\n
+19:00 - 02:30\n
+Wednesday closed\n
+Tripadvisor:\n</string>
+    <string name="guggenheim_tripadvisor">https://www.tripadvisor.co.uk/Restaurant_Review-g194713-d7599472-Reviews-Guggenheim-Caserta_Province_of_Caserta_Campania.html</string>
+
+    <string name="san_carlo_description"> International, Italian, Pizza, Seafood, Mediterranean, Soups, Delicatessen, Vegetarian Friendly\n
+Restaurant features:\n
+        Buffet, Seating, Waitstaff, Parking Available, Street Parking, Free Off-Street Parking, Television, Highchairs Available, Wheelchair Accessible, Serves Alcohol,
+        Full Bar, Wine and Beer, Accepts American Express, Accepts Mastercard, Accepts Visa, Free Wifi, Takeout, Reservations\n
+Open Hours\n
+Tuesday-Sunday\n
+12:00 - 14:45\n
+19:00 - 23:45\n
+Tripadvisor:\n    </string>
+    <string name="san_carlo_tripadvisor">https://www.tripadvisor.co.uk/Restaurant_Review-g194713-d6592228-Reviews-San_Carlo_Ristorante_Pizzeria-Caserta_Province_of_Caserta_Campania.html</string>
+    <string name="i_masanielli_martucci_description"> Italian, Pizza, Vegetarian Friendly, Vegan Options\n
+Restaurant features:\n
+        Takeout, Reservations, Seating, Waitstaff, Television, Highchairs Available, Serves Alcohol\n
+Open Hours\n
+Sunday\n
+18:30 - 00:00
+Monday-Friday\n
+12:30 - 15:00\n
+18:45 - 00:00\n
+Saturday\n
+18:30 - 00:00\n
+12:00 - 15:00\n
+    Tripadvisor:\n </string>
+    <string name="i_masanielli_martucci_tripadvisor">https://www.tripadvisor.co.uk/Restaurant_Review-g194713-d6839108-Reviews-I_Masanielli_Pizzeria_da_Sasa_Martucci-Caserta_Province_of_Caserta_Campania.html</string>
+    <string name="o_tianiello_description"> Italian, Mediterranean, Vegetarian Friendly, Gluten Free Options\n
+Restaurant features:\n
+        Full Bar, Reservations, Seating, Waitstaff, Wheelchair Accessible, Serves Alcohol, Wine and Beer, Accepts Mastercard, Accepts Visa, Free Wifi\n
+Open Hours\n
+Sunday\n
+12:30 - 15:00\n
+Monday-Saturday\n
+19:30 - 23:30\n
+12:30 - 15:00\n
+Tripadvisor:\n     </string>
+    <string name="o_tianiello_tripadvisor">https://www.tripadvisor.co.uk/Restaurant_Review-g194713-d2649924-Reviews-O_Tianiello-Caserta_Province_of_Caserta_Campania.html</string>
+    <string name="hostaria_massa_description"> Italian, Pizza, Seafood, Mediterranean, European, Vegetarian Friendly, Vegan Options, Gluten Free Options\n
+Restaurant features:\n
+        Parking Available, Valet Parking, Full Bar, Reservations, Outdoor Seating, Private Dining, Seating, Waitstaff, Highchairs Available,
+        Wheelchair Accessible, Serves Alcohol, Wine and Beer, Accepts American Express, Accepts Mastercard, Accepts Visa, Free Wifi\n
+Open Hours\n
+Sunday\n
+12:30 - 15:00\n
+Monday-Saturday\n
+12:30 - 15:00\n
+20:00 - 23:00\n
+Tripadvisor:\n       </string>
+    <string name="hostaria_massa_tripadvisor">https://www.tripadvisor.co.uk/Restaurant_Review-g194713-d1732113-Reviews-Antica_Hostaria_Massa-Caserta_Province_of_Caserta_Campania.html</string>
+
+
+    <string name="hotel_royal_description">
+        Internet\n
+        Public parking is possible on site (reservation is not needed) and costs EUR 10 per day.\n
+        Fitness centre\n
+        Restaurant (à la carte)\n
+        Breakfast in the room\n
+        Bar\n
+        Languages spoken: Italian, French, Spanish, English, German\n
+        Booking:\n </string>
+    <string name="hotel_royal_booking">https://www.booking.com/hotel/it/casertacaserta.en-gb.html?aid=304142;label=gen173nr-1FCAEoggJCAlhYSDNiBW5vcmVmaDqIAQGYARTCAQp3aW5kb3dzIDEwyAEM2AEB6AEB-AELkgIBeagCAw;sid=93e7c7954914c31526ab822e06b6cc4c;dest_id=-114219;dest_type=city;dist=0;group_adults=2;hpos=1;room1=A%2CA;sb_price_type=total;srfid=113d96f2ba03c418ec2837f0cd1c7d6fb0af12b2X1;type=total;ucfs=1;=;lang=en-gb;lang_click=top;cdl=it#availability</string>
+
+    <string name="hotel_vanvitelli_description">
+        Internet\n
+        Free! Free public parking is possible at a location nearby (reservation is not needed)\n
+        Fitness centre\n
+        Outdoor pool\n
+        Solarium\n
+        Restaurant (à la carte)\n
+        Breakfast in the room\n
+        Bar\n
+        Languages spoken: Italian, French, Spanish, English, German\n
+        Booking:\n </string>
+    <string name="hotel_vanvitelli_booking">https://www.booking.com/hotel/it/grandhotelvanvitelli.en-gb.html?aid=304142;label=gen173nr-1FCAEoggJCAlhYSDNiBW5vcmVmaDqIAQGYARTCAQp3aW5kb3dzIDEwyAEM2AEB6AEB-AELkgIBeagCAw;sid=93e7c7954914c31526ab822e06b6cc4c;dest_id=-114219;dest_type=city;dist=0;group_adults=2;hpos=2;room1=A%2CA;sb_price_type=total;srfid=113d96f2ba03c418ec2837f0cd1c7d6fb0af12b2X2;type=total;ucfs=1;=;lang=en-gb;lang_click=top;cdl=it</string>
+    <string name="hotel_cavalieri_description">
+        Internet\n
+        Public parking is possible at a location nearby (reservation is not needed) and costs EUR 10 per day.\n
+        Hot tub/jacuzzi\n
+        Restaurant (à la carte)\n
+        Kid meals\n
+        Breakfast in the room\n
+        Languages spoken: Italian, French, Spanish, English\n
+        Booking:\n </string>
+    <string name="hotel_cavalieri_booking">https://www.booking.com/hotel/it/h2c-caserta.en-gb.html?aid=304142;label=gen173nr-1FCAEoggJCAlhYSDNiBW5vcmVmaDqIAQGYARTCAQp3aW5kb3dzIDEwyAEM2AEB6AEB-AELkgIBeagCAw;sid=93e7c7954914c31526ab822e06b6cc4c;dest_id=-114219;dest_type=city;dist=0;group_adults=2;hpos=3;room1=A%2CA;sb_price_type=total;srfid=113d96f2ba03c418ec2837f0cd1c7d6fb0af12b2X3;type=total;ucfs=1;=;lang=en-gb;lang_click=top;cdl=it</string>
+
+    <string name="hotel_villa_maria_cristina_description">
+        Internet\n
+        Free! Free private parking is possible at a location nearby (reservation is not needed)\n
+        Outdoor pool (seasonal)\n
+        Restaurant (à la carte)\n
+        Snack bar\n
+        Breakfast in the room\n
+        Languages spoken: Italian, French, Spanish, English\n
+        Booking:\n </string>
+    <string name="hotel_villa_maria_cristina_booking">https://www.booking.com/hotel/it/villa-maria-cristina.en-gb.html?aid=304142;label=gen173nr-1FCAEoggJCAlhYSDNiBW5vcmVmaDqIAQGYARTCAQp3aW5kb3dzIDEwyAEM2AEB6AEB-AELkgIBeagCAw;sid=93e7c7954914c31526ab822e06b6cc4c;dest_id=-114219;dest_type=city;dist=0;group_adults=2;hpos=4;room1=A%2CA;sb_price_type=total;srfid=113d96f2ba03c418ec2837f0cd1c7d6fb0af12b2X4;type=total;ucfs=1;=;lang=en-gb;lang_click=top;cdl=it</string>
+
+    <string name="hotel_bruman_description">
+        Internet\n
+        Free! Free private parking is possible at a location nearby (reservation is not needed)\n
+        Bar\n
+        Breakfast in the room\n
+        Booking:\n </string>
+    <string name="hotel_bruman_booking">https://www.booking.com/hotel/it/bruman.en-gb.html?aid=304142;label=gen173nr-1FCAEoggJCAlhYSDNiBW5vcmVmaDqIAQGYARTCAQp3aW5kb3dzIDEwyAEM2AEB6AEB-AELkgIBeagCAw;sid=93e7c7954914c31526ab822e06b6cc4c;dest_id=-114219;dest_type=city;dist=0;group_adults=2;hpos=5;room1=A%2CA;sb_price_type=total;srfid=113d96f2ba03c418ec2837f0cd1c7d6fb0af12b2X5;type=total;ucfs=1;=;lang=en-gb;lang_click=top;cdl=it</string>
+
+    <string name="hotel_novotel_description">
+        Internet\n
+        Private parking is possible on site (reservation is not needed) and costs EUR 8 per day\n
+        Outdoor pool\n
+        Solarium\n
+        Fitness centre\n
+        Bar\n
+        Restaurant (à la carte)\n
+        Breakfast in the room\n
+        Languages spoken: Italian, French, Spanish, English\n
+        Booking:\n </string>
+    <string name="hotel_novotel_booking">https://www.booking.com/hotel/it/novotelcasertasud.en-gb.html?aid=304142;label=gen173nr-1FCAEoggJCAlhYSDNiBW5vcmVmaDqIAQGYARTCAQp3aW5kb3dzIDEwyAEM2AEB6AEB-AELkgIBeagCAw;sid=93e7c7954914c31526ab822e06b6cc4c;dest_id=-114219;dest_type=city;dist=0;group_adults=2;hpos=6;room1=A%2CA;sb_price_type=total;srfid=113d96f2ba03c418ec2837f0cd1c7d6fb0af12b2X6;type=total;ucfs=1;=;lang=en-gb;lang_click=top;cdl=it</string>
+
+    <string name="via_mazzini_description">This small street hosts mainly clothes shops, usually expensive but with high quality goods.
+    you can also find bars, jewelers and the City Theatre.\n
+    Website of the City of Caserta:\n</string>
+    <string name="caserta_website">http://www.comune.caserta.it/</string>
+
+    <string name="corso_trieste_description">A long street which starts from Piazza Dante and ends close to the Monuments for the Fallen.
+        It hosts many kinds of shops, from food to clothes, electronics, books and a small park.\n
+    Website of the City of Caserta:\n</string>
+
+    <string name="via_roma_description">Parallel to Corso Trieste, this street is also well known for shopping. You can find clothes, bars,
+        electronics, restaurants and pizza.\n
+    Website of the City of Caserta:\n</string>
+
+    <string name="centro_campania_description">Located in the close city of Marcianise, it has a very large area with different buildings.
+        You can find shops, restaurants, a supermarket and many other activities. Events are frequent.\n
+        A shuttle from Caserta train station is available\n
+        Opening hours:\n
+        Monday-Sunday\n
+        Shopping Gallery:\n
+        9:00 - 22:00\n
+        Campania Square\n
+        9:00 - 24:00\n
+        Closed on 1st of January, Easter and the 25th of December\n
+        Website:\n</string>
+    <string name="centro_campania_website">http://it.club-onlyou.com/Campania</string>
+
+    <string name="outlet_la_reggia_description">Located in Marcianise, very close to A1 exit of Caserta Sud, this fashion outlet offers
+        discounts from 30%% to 70%% on many brands. Restaurants, bars and a play ground are also present\n
+        A shuttle from Naples is available, from Caserta line CLP 111.\n
+        Opening hours:\n
+        Monday - Sunday\n
+        10.00- 21.00\n
+        Closed on 25th of December and 1st of January\n
+        Website:\n</string>
+    <string name="outlet_la_reggia_website">http://www.mcarthurglen.com/it/la-reggia-designer-outlet/en/</string>
+
+</resources>

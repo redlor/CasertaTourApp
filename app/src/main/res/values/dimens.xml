@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="small_margin_left">5dp</dimen>
+    <dimen name="header_text_size">15sp</dimen>
+    <dimen name="padding">10dp</dimen>
+    <dimen name="child_margin_left">20dp</dimen>
+    <dimen name="title_margin_left">15dp</dimen>
+    <dimen name="child_text_size">15sp</dimen>
+    <dimen name="divider_height">1dp</dimen>
+    <dimen name="image_height">220dp</dimen>
+    <dimen name="padding_icon">4dp</dimen>
+    <dimen name="cornerRadius">4dp</dimen>
+    <dimen name="side_margin_card">8dp</dimen>
+    <dimen name="card_margin">4dp</dimen>
+
+</resources>
+
