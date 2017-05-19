@@ -1,10 +1,8 @@
 <resources>
-    <string name="app_name">Tour App</string>
+    <string name="app_name">Caserta Tour</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="monuments_fragment">Monuments</string>
     <string name="restaurants_fragment">Restaurants</string>
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="hotels_fragment">Hotels</string>
     <string name="shopping_fragment">Shopping</string>
 

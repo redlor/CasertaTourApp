@@ -64,7 +64,7 @@ public class MonumentsFragment extends Fragment {
         String casertavecchiaLink = (String) getText(R.string.casertavecchia_website);
 
         // Get website link icon
-        Drawable backgroundIcon = ResourcesCompat.getDrawable(getResources(), R.drawable.logo_caserta, null);
+        Drawable backgroundIcon = ResourcesCompat.getDrawable(getResources(), R.drawable.worldicon, null);
 
         // Adding child data
         child1.add(new Child(R.drawable.reggia, R.drawable.reggia_stairs, R.drawable.hall, R.drawable.englishgarden, royalPalaceDescription, royalPalaceLink, backgroundIcon));
