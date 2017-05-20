@@ -9,9 +9,9 @@
     </style>
 
     <style name="scrollableImageView">
-        <item name="android:layout_width">150dp</item>
-        <item name="android:layout_height">150dp</item>
+        <item name="android:layout_width">@dimen/photo_dimens</item>
+        <item name="android:layout_height">@dimen/photo_dimens</item>
         <item name="android:scaleType">centerCrop</item>
-        <item name="android:layout_marginRight">@dimen/small_margin_left</item>
+        <item name="android:layout_marginRight">@dimen/small_margin</item>
     </style>
 </resources>

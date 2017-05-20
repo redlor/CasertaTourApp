@@ -38,7 +38,7 @@
         android:id="@+id/child"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="@dimen/small_margin_left"
+        android:layout_marginLeft="@dimen/small_margin"
         android:padding="@dimen/padding"
         android:textAppearance="?android:textAppearanceMedium"
         android:textColor="@color/child_text_color"

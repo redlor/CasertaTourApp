@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="small_margin_left">5dp</dimen>
+    <dimen name="small_margin">5dp</dimen>
     <dimen name="header_text_size">15sp</dimen>
     <dimen name="padding">10dp</dimen>
     <dimen name="child_margin_left">20dp</dimen>
@@ -12,6 +12,8 @@
     <dimen name="cornerRadius">4dp</dimen>
     <dimen name="side_margin_card">8dp</dimen>
     <dimen name="card_margin">4dp</dimen>
+    <dimen name="image_dialog">350dp</dimen>
+    <dimen name="photo_dimens">150dp</dimen>
 
 </resources>
 

@@ -1,16 +1,21 @@
 package com.example.android.testtourapp;
 
+import android.app.Dialog;
 import android.content.Context;
 import android.graphics.Typeface;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.WindowManager;
 import android.widget.BaseExpandableListAdapter;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.ScrollView;
 import android.widget.TextView;
 
 import java.util.ArrayList;
+
+import static android.content.Context.LAYOUT_INFLATER_SERVICE;
 
 
 //For expandable list view use BaseExpandableListAdapter
@@ -44,23 +49,120 @@ public class ExpandableListAdapter extends BaseExpandableListAdapter {
     @Override
     public View getChildView(int groupPosition, final int childPosition,
                              boolean isLastChild, View convertView, ViewGroup parent) {
-        Child child = (Child) getChild(groupPosition, childPosition);
+        final Child child = (Child) getChild(groupPosition, childPosition);
 
         // Inflating child layout and setting textview
         if (convertView == null) {
             LayoutInflater layoutInflater = (LayoutInflater) this._context
-                    .getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+                    .getSystemService(LAYOUT_INFLATER_SERVICE);
             convertView = layoutInflater.inflate(R.layout.child, parent, false);
         }
         // Getting images in the horizontal Scroll View and setting them.
         ImageView imageView = (ImageView) convertView.findViewById(R.id.image1);
         imageView.setImageResource(child.getImage1());
+        // Setting an OnClickLister to open the current image in a Dialog when clicked
+        imageView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                final Dialog dialog = new Dialog(_context.getApplicationContext());
+                dialog.getWindow().setType(WindowManager.LayoutParams.TYPE_SYSTEM_ALERT);
+                dialog.setContentView(R.layout.dialog);
+                ScrollView scroll = new ScrollView(_context.getApplicationContext());
+                scroll.setLayoutParams(new ViewGroup.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT,
+                        ViewGroup.LayoutParams.MATCH_PARENT));
+                // set the custom dialog components - text, image and button
+                ImageView imageViewDialog = (ImageView) dialog.findViewById(R.id.imageDialog);
+                imageViewDialog.setImageResource(child.getImage1());
+                Button dialogButton = (Button) dialog.findViewById(R.id.dialogButtonOK);
+                // If button is clicked, close the custom dialog
+                dialogButton.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        dialog.dismiss();
+                    }
+                });
+                dialog.show();
+            }
+        });
+
         ImageView imageView2 = (ImageView) convertView.findViewById(R.id.image2);
         imageView2.setImageResource(child.getImage2());
+        // Setting an OnClickLister to open the current image in a Dialog when clicked
+        imageView2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                final Dialog dialog = new Dialog(_context.getApplicationContext());
+                dialog.getWindow().setType(WindowManager.LayoutParams.TYPE_SYSTEM_ALERT);
+                dialog.setContentView(R.layout.dialog);
+                ScrollView scroll = new ScrollView(_context.getApplicationContext());
+                scroll.setLayoutParams(new ViewGroup.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT,
+                        ViewGroup.LayoutParams.MATCH_PARENT));
+                // set the custom dialog components - text, image and button
+                ImageView imageViewDialog = (ImageView) dialog.findViewById(R.id.imageDialog);
+                imageViewDialog.setImageResource(child.getImage2());
+                Button dialogButton = (Button) dialog.findViewById(R.id.dialogButtonOK);
+                // If button is clicked, close the custom dialog
+                dialogButton.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        dialog.dismiss();
+                    }
+                });
+                dialog.show();
+            }
+        });
         ImageView imageView3 = (ImageView) convertView.findViewById(R.id.image3);
         imageView3.setImageResource(child.getImage3());
+        // Setting an OnClickLister to open the current image in a Dialog when clicked
+        imageView3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                final Dialog dialog = new Dialog(_context.getApplicationContext());
+                dialog.getWindow().setType(WindowManager.LayoutParams.TYPE_SYSTEM_ALERT);
+                dialog.setContentView(R.layout.dialog);
+                ScrollView scroll = new ScrollView(_context.getApplicationContext());
+                scroll.setLayoutParams(new ViewGroup.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT,
+                        ViewGroup.LayoutParams.MATCH_PARENT));
+                // set the custom dialog components - text, image and button
+                ImageView imageViewDialog = (ImageView) dialog.findViewById(R.id.imageDialog);
+                imageViewDialog.setImageResource(child.getImage3());
+                Button dialogButton = (Button) dialog.findViewById(R.id.dialogButtonOK);
+                // If button is clicked, close the custom dialog
+                dialogButton.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        dialog.dismiss();
+                    }
+                });
+                dialog.show();
+            }
+        });
         ImageView imageView4 = (ImageView) convertView.findViewById(R.id.image4);
         imageView4.setImageResource(child.getImage4());
+        // Setting an OnClickLister to open the current image in a Dialog when clicked
+        imageView4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                final Dialog dialog = new Dialog(_context.getApplicationContext());
+                dialog.getWindow().setType(WindowManager.LayoutParams.TYPE_SYSTEM_ALERT);
+                dialog.setContentView(R.layout.dialog);
+                ScrollView scroll = new ScrollView(_context.getApplicationContext());
+                scroll.setLayoutParams(new ViewGroup.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT,
+                        ViewGroup.LayoutParams.MATCH_PARENT));
+                // set the custom dialog components - text, image and button
+                ImageView imageViewDialog = (ImageView) dialog.findViewById(R.id.imageDialog);
+                imageViewDialog.setImageResource(child.getImage4());
+                Button dialogButton = (Button) dialog.findViewById(R.id.dialogButtonOK);
+                // If button is clicked, close the custom dialog
+                dialogButton.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        dialog.dismiss();
+                    }
+                });
+                dialog.show();
+            }
+        });
 
         // Getting Child text and icon (website link), and setting into the TextViews
         TextView childText = (TextView) convertView.findViewById(R.id.child);
@@ -107,7 +209,7 @@ public class ExpandableListAdapter extends BaseExpandableListAdapter {
         // Inflating header layout and setting text
         if (convertView == null) {
             LayoutInflater infalInflater = (LayoutInflater) this._context
-                    .getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+                    .getSystemService(LAYOUT_INFLATER_SERVICE);
             convertView = infalInflater.inflate(R.layout.header, parent, false);
         }
         // Getting and setting header title
@@ -176,3 +278,4 @@ public class ExpandableListAdapter extends BaseExpandableListAdapter {
     }
 
 }
+

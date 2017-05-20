@@ -14,6 +14,8 @@ import android.widget.ExpandableListView.OnGroupClickListener;
 
 import java.util.ArrayList;
 
+import butterknife.ButterKnife;
+
 /**
  * A simple {@link Fragment} subclass.
  */
@@ -30,7 +32,7 @@ public class MonumentsFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.list, container, false);
-
+        ButterKnife.bind(getActivity());
 
         expandableListView = (ExpandableListView) rootView.findViewById(R.id.simple_expandable_listview);
 
@@ -39,7 +41,6 @@ public class MonumentsFragment extends Fragment {
 
         setItems();
         setListener();
-
         return rootView;
 
     }
@@ -72,9 +73,9 @@ public class MonumentsFragment extends Fragment {
         child3.add(new Child(R.drawable.casertavecchiahigh, R.drawable.casertavecchiacathedral, R.drawable.casertavecchiastreet, R.drawable.casertavecchianight, casertavecchiaDescription, casertavecchiaLink, backgroundIcon));
 
         // Adding headers to list
-        header.add(new Item("Royal Palace", R.drawable.monumenticon, child1));
-        header.add(new Item("San Leucio Complex", R.drawable.monumenticon, child2));
-        header.add(new Item("Casertavecchia", R.drawable.monumenticon, child3));
+        header.add(new Item(getString(R.string.royal_palace_name), R.drawable.monumenticon, child1));
+        header.add(new Item(getString(R.string.san_leucio_name), R.drawable.monumenticon, child2));
+        header.add(new Item(getString(R.string.casertavecchia_name), R.drawable.monumenticon, child3));
 
         adapter = new ExpandableListAdapter(getActivity(), header);
 
@@ -121,7 +122,6 @@ public class MonumentsFragment extends Fragment {
                 return false;
             }
         });
-
 
     }
 

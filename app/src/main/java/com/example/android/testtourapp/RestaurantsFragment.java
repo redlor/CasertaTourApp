@@ -100,16 +100,16 @@ public class RestaurantsFragment extends Fragment {
         child10.add(new Child(R.drawable.hostariamassa1, R.drawable.hostariamassa2, R.drawable.hostariamassa3, R.drawable.hostariamassa4, hostariaMassaDescription, hostariaMassaLink, backgroundIcon));
 
         // Adding headers to list
-        header.add(new Item("Pata Pan", "Via Don Giovanni Bosco 6, 81100, Caserta, Italy", "+39 348 709 7948", R.drawable.plate, child1));
-        header.add(new Item("Il Cantuccio Pub & Beer", "Via Raffaele Gasparri N 24, 81100, Caserta, Italy", "+39 377 684 6755", R.drawable.plate, child2));
-        header.add(new Item("Pizzeria I Masanielli", "Viale Abraham Lincoln 29, 81100, Caserta, Italy", "+39 0823 154 0786", R.drawable.plate, child3));
-        header.add(new Item("Meburger", "Via Giacomo Medici Bosco, 16/18, 81100, Caserta, Italy", "+39 0823 216392", R.drawable.plate, child4));
-        header.add(new Item("Moderna Vineria Vigna Ré", "Via Antonio Planelli 8, 81100 San Leucio, Caserta, Italy", "+39 0823 304606", R.drawable.plate, child5));
-        header.add(new Item("Guggenheim", "Via C. Golgi, 28, 81100, Caserta, Italy", "+39 333 316 5335", R.drawable.plate, child6));
-        header.add(new Item("San Carlo Ristorante Pizzeria", "Via San Carlo 134/140, 81100, Caserta, Italy", "+39 0823 279005", R.drawable.plate, child7));
-        header.add(new Item("I Masanielli", "Via Antonio Vivaldi 23, 81100, Caserta, Italy", "+39 0823 220092", R.drawable.plate, child8));
-        header.add(new Item("O' Tianiello", "Via Giuseppe Verdi 86, 81100, Caserta, Italy", "+39 0823 441473", R.drawable.plate, child9));
-        header.add(new Item("Antica Hostaria Massa", "Via Giuseppe Mazzini 55, 81100, Caserta, Italy", "+39 0823 456527", R.drawable.plate, child10));
+        header.add(new Item(getString(R.string.pata_pan_name), getString(R.string.pata_pan_address), getString(R.string.pata_pan_phone), R.drawable.plate, child1));
+        header.add(new Item(getString(R.string.il_cantuccio_name), getString(R.string.il_cantuccio_address), getString(R.string.il_cantuccio_phone), R.drawable.plate, child2));
+        header.add(new Item(getString(R.string.i_masanielli_name), getString(R.string.i_masanielli_address), getString(R.string.i_masanielli_phone), R.drawable.plate, child3));
+        header.add(new Item(getString(R.string.meburger_name), getString(R.string.meburger_address), getString(R.string.meburger_phone), R.drawable.plate, child4));
+        header.add(new Item(getString(R.string.vigna_re_name), getString(R.string.vigna_re_address), getString(R.string.vigna_re_phone), R.drawable.plate, child5));
+        header.add(new Item(getString(R.string.guggenheim_name), getString(R.string.guggenheim_address), getString(R.string.guggenheim_phone), R.drawable.plate, child6));
+        header.add(new Item(getString(R.string.san_carlo_name), getString(R.string.san_carlo_address), getString(R.string.san_carlo_phone), R.drawable.plate, child7));
+        header.add(new Item(getString(R.string.i_masanielli_martucci_name), getString(R.string.i_masanielli_martucci_address), getString(R.string.i_masanielli_martucci_phone), R.drawable.plate, child8));
+        header.add(new Item(getString(R.string.o_tianiello_name), getString(R.string.o_tianiello_address), getString(R.string.o_tianiello_phone), R.drawable.plate, child9));
+        header.add(new Item(getString(R.string.hostaria_massa_name), getString(R.string.hostaria_massa_address), getString(R.string.hostaria_massa_phone), R.drawable.plate, child10));
 
         adapter = new ExpandableListAdapter(getActivity(), header);
 

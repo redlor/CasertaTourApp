@@ -78,11 +78,11 @@ public class ShoppingFragment extends Fragment {
         child5.add(new Child(R.drawable.outletlareggia1, R.drawable.outletlareggia2, R.drawable.outletlareggia3, R.drawable.outletlareggia4, outletLaReggiaDescription, outletLaReggiaLink, backgroundIcon));
 
         // Adding headers to list
-        header.add(new Item("Via Mazzini", R.drawable.shoppingicon, child1));
-        header.add(new Item("Corso Trieste", R.drawable.shoppingicon, child2));
-        header.add(new Item("Via Roma", R.drawable.shoppingicon, child3));
-        header.add(new Item("Shopping Center Campania", "Località Aurno 87, 81025 Marcianise, Italy", "+39 0823 696037", R.drawable.shoppingicon, child4));
-        header.add(new Item("La Reggia Designer Outlet", "S.P. 336 Sannitica, 81025 Marcianise, Italy", "+39 0823 510244", R.drawable.shoppingicon, child5));
+        header.add(new Item(getString(R.string.via_mazzini_name), R.drawable.shoppingicon, child1));
+        header.add(new Item(getString(R.string.corso_trieste_name), R.drawable.shoppingicon, child2));
+        header.add(new Item(getString(R.string.via_roma_name), R.drawable.shoppingicon, child3));
+        header.add(new Item(getString(R.string.centro_campania_name), getString(R.string.centro_campania_address), getString(R.string.centro_campania_phone), R.drawable.shoppingicon, child4));
+        header.add(new Item(getString(R.string.outlet_la_reggia_name), getString(R.string.outlet_la_reggia_address), getString(R.string.outlet_la_reggia_phone), R.drawable.shoppingicon, child5));
 
         adapter = new ExpandableListAdapter(getActivity(), header);
 

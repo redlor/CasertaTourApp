@@ -56,7 +56,7 @@ public class HotelsFragment extends Fragment {
         ArrayList<Child> child4 = new ArrayList<Child>();
         ArrayList<Child> child5 = new ArrayList<Child>();
         ArrayList<Child> child6 = new ArrayList<Child>();
-        ;
+
 
         // Initialize Strings
         String hotelRoyalDescription = (String) getText(R.string.hotel_royal_description);
@@ -84,12 +84,12 @@ public class HotelsFragment extends Fragment {
         child6.add(new Child(R.drawable.hotelnovotel1, R.drawable.hotelnovotel2, R.drawable.hotelnovotel3, R.drawable.hotelnovotel4, novotelDescription, novotelLink, backgroundIcon));
 
         // Adding headers to list
-        header.add(new Item("Hotel Royal", "Viale Vittorio Veneto 13, 81100 Caserta, Italy", "+39 0823 325222", R.drawable.hotelicon, child1));
-        header.add(new Item("Gran Hotel Vanvitelli", "Viale Carlo III, 81020 Caserta, Italy", "+39 0823 217111", R.drawable.hotelicon, child2));
-        header.add(new Item("Hotel dei Cavalieri", "Piazza Luigi Vanvitelli 12, 81100 Caserta, Italy", "+39 0823 355520", R.drawable.hotelicon, child3));
-        header.add(new Item("Villa Maria Cristina", "Via Giulio Antonio Acquaviva 24, 81100 Caserta, Italy", "+39 0823 352538", R.drawable.hotelicon, child4));
-        header.add(new Item("Hotel Bruman", "Via Roma 156, 81100 Caserta, Italy", "+39 0823 353266", R.drawable.hotelicon, child5));
-        header.add(new Item("Novotel", "S.S. 87 Sannitica Km 22.600, 81020 Caserta, Italy", "+39 0823 826553", R.drawable.hotelicon, child6));
+        header.add(new Item(getString(R.string.hotel_royal_name), getString(R.string.hotel_royal_address), getString(R.string.hotel_royal_phone), R.drawable.hotelicon, child1));
+        header.add(new Item(getString(R.string.hotel_vanvitelli_name), getString(R.string.hotel_vanvitelli_address), getString(R.string.hotel_vanvitelli_phone), R.drawable.hotelicon, child2));
+        header.add(new Item(getString(R.string.hotel_cavalieri_name), getString(R.string.hotel_cavalieri_address), getString(R.string.hotel_cavalieri_phone), R.drawable.hotelicon, child3));
+        header.add(new Item(getString(R.string.hotel_villa_maria_cristina_name), getString(R.string.hotel_villa_maria_cristina_address),getString(R.string.hotel_villa_maria_cristina_phone), R.drawable.hotelicon, child4));
+        header.add(new Item(getString(R.string.hotel_bruman_name), getString(R.string.hotel_bruman_address), getString(R.string.hotel_bruman_phone), R.drawable.hotelicon, child5));
+        header.add(new Item(getString(R.string.hotel_novotel_name), getString(R.string.hotel_novotel_address), getString(R.string.hotel_novotel_phone), R.drawable.hotelicon, child6));
 
         adapter = new ExpandableListAdapter(getActivity(), header);
 

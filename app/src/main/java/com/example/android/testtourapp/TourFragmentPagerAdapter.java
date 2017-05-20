@@ -19,14 +19,16 @@ public class TourFragmentPagerAdapter extends FragmentPagerAdapter {
 
     @Override
     public Fragment getItem(int position) {
-        if (position == 0) {
-            return new MonumentsFragment();
-        } else if (position == 1) {
-            return new RestaurantsFragment();
-        } else if (position == 2) {
-            return new HotelsFragment();
-        } else {
-            return new ShoppingFragment();
+        switch (position) {
+            case 0:
+                return new MonumentsFragment();
+            case 1:
+                return new RestaurantsFragment();
+            case 2:
+                return new HotelsFragment();
+            case 3:
+                return new ShoppingFragment();
+            default: return null;
         }
     }
 
