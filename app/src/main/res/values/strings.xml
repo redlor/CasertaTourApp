@@ -83,7 +83,7 @@
 
     <string name="pata_pan_name">Pata pan</string>
     <string name="pata_pan_address">Via Don Giovanni Bosco 6, 81100, Caserta, Italy</string>
-    <string name="pata_pan_phone">+39 348 709 7948</string>
+    <string name="pata_pan_phone">0039 348 7097948</string>
     <string name="pata_pan_description">Fast food \n
 Restaurant features:\n Delivery, Takeout, Reservations, Seating, Waitstaff, Parking Available, Highchairs Available, Serves Alcohol, Wine and Beer, Cash Only\n
         Opening hours:\n
@@ -96,7 +96,7 @@ Sunday 12:30–15, 18:30–00\n
 
     <string name="il_cantuccio_name">Il Cantuccio Pub \u0026 Beer</string>
     <string name="il_cantuccio_address">Via Raffaele Gasparri N 24, 81100, Caserta, Italy</string>
-    <string name="il_cantuccio_phone">+39 377 684 6755</string>
+    <string name="il_cantuccio_phone">0039 377 6846755</string>
     <string name="il_cantuccio_description"> Italian, Mediterranean, Pub\n
 Restaurant features:\n  Accepts Visa, Takeout, Reservations, Seating, Waitstaff, Highchairs Available, Wheelchair Accessible, Serves Alcohol, Wine and Beer,
         Accepts American Express, Accepts Mastercard, Digital Payments\n
@@ -115,7 +115,7 @@ Tripadvisor:\n</string>
 
     <string name="i_masanielli_name">Pizzeria I Masanielli</string>
     <string name="i_masanielli_address">Viale Abraham Lincoln 29, 81100, Caserta, Italy</string>
-    <string name="i_masanielli_phone">+39 0823 154 0786</string>
+    <string name="i_masanielli_phone">0039 0823 1540786</string>
     <string name="i_masanielli_description">Pizza, Mediterranean, Vegetarian Friendly, Vegan Options, Gluten Free Options\n
         Restaurant features:  Takeout, Seating, Waitstaff, Television, Highchairs Available, Serves Alcohol\n
 Opening hours:\n
@@ -126,7 +126,7 @@ Tripadvisor:\n    </string>
 
     <string name="meburger_name">Meburger</string>
     <string name="meburger_address">Via Giacomo Medici Bosco, 16/18, 81100, Caserta, Italy</string>
-    <string name="meburger_phone">+39 0823 216392</string>
+    <string name="meburger_phone">0039 0823 216392</string>
     <string name="meburger_description"> Brew Pub, Barbecue, Pub, Vegetarian Friendly\n
 Restaurant features  Outdoor Seating, Takeout, Reservations, Seating, Waitstaff, Highchairs Available, Wheelchair Accessible, Serves Alcohol, Free Wifi\n
 Opening hours:\n
@@ -137,7 +137,7 @@ Tripadvisor:\n       </string>
 
     <string name="vigna_re_name">Moderna Vineria Vigna Ré</string>
     <string name="vigna_re_address">Via Antonio Planelli 8, 81100 San Leucio, Caserta, Italy</string>
-    <string name="vigna_re_phone">+39 0823 304606</string>
+    <string name="vigna_re_phone">0039 0823 304606</string>
     <string name="vigna_re_description"> Italian, Seafood\n
 Restaurant features:\n
         Reservations, Outdoor Seating, Seating, Waitstaff, Parking Available, Highchairs Available, Wheelchair Accessible, Serves Alcohol, Free Wifi\n
@@ -150,7 +150,7 @@ Tripadvisor:\n         </string>
 
     <string name="guggenheim_name">Guggenheim</string>
     <string name="guggenheim_address">Via C. Golgi, 28, 81100, Caserta, Italy</string>
-    <string name="guggenheim_phone">+39 333 316 5335</string>
+    <string name="guggenheim_phone">0039 333 3165335</string>
     <string name="guggenheim_description"> Bar, European, Pub, Brew Pub\n
 Restaurant features:\n
         Takeout, Reservations, Seating, Waitstaff, Parking Available, Television, Wheelchair Accessible, Serves Alcohol, Full Bar\n
@@ -163,7 +163,7 @@ Tripadvisor:\n</string>
 
     <string name="san_carlo_name">San Carlo Ristorante Pizzeria</string>
     <string name="san_carlo_address">Via San Carlo 134/140, 81100, Caserta, Italy</string>
-    <string name="san_carlo_phone">+39 0823 279005</string>
+    <string name="san_carlo_phone">0039 0823 279005</string>
     <string name="san_carlo_description"> International, Italian, Pizza, Seafood, Mediterranean, Soups, Delicatessen, Vegetarian Friendly\n
 Restaurant features:\n
         Buffet, Seating, Waitstaff, Parking Available, Street Parking, Free Off-Street Parking, Television, Highchairs Available, Wheelchair Accessible, Serves Alcohol,
@@ -177,7 +177,7 @@ Tripadvisor:\n    </string>
 
     <string name="i_masanielli_martucci_name">I Masanielli</string>
     <string name="i_masanielli_martucci_address">Via Antonio Vivaldi 23, 81100, Caserta, Italy</string>
-    <string name="i_masanielli_martucci_phone">+39 0823 220092</string>
+    <string name="i_masanielli_martucci_phone">0039 0823 220092</string>
     <string name="i_masanielli_martucci_description"> Italian, Pizza, Vegetarian Friendly, Vegan Options\n
 Restaurant features:\n
         Takeout, Reservations, Seating, Waitstaff, Television, Highchairs Available, Serves Alcohol\n
@@ -195,7 +195,7 @@ Saturday\n
 
     <string name="o_tianiello_name">O\' Tianiello</string>
     <string name="o_tianiello_address">Via Giuseppe Verdi 86, 81100, Caserta, Italy</string>
-    <string name="o_tianiello_phone">+39 0823 441473</string>
+    <string name="o_tianiello_phone">0039 0823 441473</string>
     <string name="o_tianiello_description"> Italian, Mediterranean, Vegetarian Friendly, Gluten Free Options\n
 Restaurant features:\n
         Full Bar, Reservations, Seating, Waitstaff, Wheelchair Accessible, Serves Alcohol, Wine and Beer, Accepts Mastercard, Accepts Visa, Free Wifi\n
@@ -210,7 +210,7 @@ Tripadvisor:\n     </string>
 
     <string name="hostaria_massa_name">Antica Hostaria Massa</string>
     <string name="hostaria_massa_address">Via Giuseppe Mazzini 55, 81100, Caserta, Italy</string>
-    <string name="hostaria_massa_phone">+39 0823 456527</string>
+    <string name="hostaria_massa_phone">0039 0823 456527</string>
     <string name="hostaria_massa_description"> Italian, Pizza, Seafood, Mediterranean, European, Vegetarian Friendly, Vegan Options, Gluten Free Options\n
 Restaurant features:\n
         Parking Available, Valet Parking, Full Bar, Reservations, Outdoor Seating, Private Dining, Seating, Waitstaff, Highchairs Available,
@@ -226,7 +226,7 @@ Tripadvisor:\n       </string>
 
     <string name="hotel_royal_name">Hotel Royal</string>
     <string name="hotel_royal_address">Viale Vittorio Veneto 13, 81100 Caserta, Italy</string>
-    <string name="hotel_royal_phone">+39 0823 325222</string>
+    <string name="hotel_royal_phone">0039 0823 325222</string>
     <string name="hotel_royal_description">
         Internet\n
         Public parking is possible on site (reservation is not needed) and costs EUR 10 per day.\n
@@ -240,7 +240,7 @@ Tripadvisor:\n       </string>
 
     <string name="hotel_vanvitelli_name">Gran Hotel Vanvitelli</string>
     <string name="hotel_vanvitelli_address">Viale Carlo III, 81020 Caserta, Italy</string>
-    <string name="hotel_vanvitelli_phone">+39 0823 217111</string>
+    <string name="hotel_vanvitelli_phone">0039 0823 217111</string>
     <string name="hotel_vanvitelli_description">
         Internet\n
         Free! Free public parking is possible at a location nearby (reservation is not needed)\n
@@ -256,7 +256,7 @@ Tripadvisor:\n       </string>
 
     <string name="hotel_cavalieri_name">Hotel dei Cavalieri</string>
     <string name="hotel_cavalieri_address">Piazza Luigi Vanvitelli 12, 81100 Caserta, Italy</string>
-    <string name="hotel_cavalieri_phone">+39 0823 352538</string>
+    <string name="hotel_cavalieri_phone">0039 0823 352538</string>
     <string name="hotel_cavalieri_description">
         Internet\n
         Public parking is possible at a location nearby (reservation is not needed) and costs EUR 10 per day.\n
@@ -270,7 +270,7 @@ Tripadvisor:\n       </string>
 
     <string name="hotel_villa_maria_cristina_name">Villa Maria Cristina</string>
     <string name="hotel_villa_maria_cristina_address">Via Giulio Antonio Acquaviva 24, 81100 Caserta, Italy</string>
-    <string name="hotel_villa_maria_cristina_phone">+39 0823 355520</string>
+    <string name="hotel_villa_maria_cristina_phone">0039 0823 355520</string>
     <string name="hotel_villa_maria_cristina_description">
         Internet\n
         Free! Free private parking is possible at a location nearby (reservation is not needed)\n
@@ -284,7 +284,7 @@ Tripadvisor:\n       </string>
 
     <string name="hotel_bruman_name">Hotel Bruman</string>
     <string name="hotel_bruman_address">Via Roma 156, 81100 Caserta, Italy</string>
-    <string name="hotel_bruman_phone">+39 0823 353266</string>
+    <string name="hotel_bruman_phone">0039 0823 353266</string>
     <string name="hotel_bruman_description">
         Internet\n
         Free! Free private parking is possible at a location nearby (reservation is not needed)\n
@@ -295,7 +295,7 @@ Tripadvisor:\n       </string>
 
     <string name="hotel_novotel_name">Novotel</string>
     <string name="hotel_novotel_address">S.S. 87 Sannitica Km 22.600, 81020 Caserta, Italy</string>
-    <string name="hotel_novotel_phone">+39 0823 826553</string>
+    <string name="hotel_novotel_phone">0039 0823 826553</string>
     <string name="hotel_novotel_description">
         Internet\n
         Private parking is possible on site (reservation is not needed) and costs EUR 8 per day\n
@@ -327,7 +327,7 @@ Tripadvisor:\n       </string>
 
     <string name="centro_campania_name">Shopping Center Campania</string>
     <string name="centro_campania_address">Località Aurno 87, 81025 Marcianise, Italy</string>
-    <string name="centro_campania_phone">+39 0823 696037</string>
+    <string name="centro_campania_phone">0039 0823 696037</string>
     <string name="centro_campania_description">Located in the close city of Marcianise, it has a very large area with different buildings.
         You can find shops, restaurants, a supermarket and many other activities. Events are frequent.\n
         A shuttle from Caserta train station is available\n
@@ -343,7 +343,7 @@ Tripadvisor:\n       </string>
 
     <string name="outlet_la_reggia_name">La Reggia Designer Outlet</string>
     <string name="outlet_la_reggia_address">S.P. 336 Sannitica, 81025 Marcianise, Italy</string>
-    <string name="outlet_la_reggia_phone">+39 0823 510244</string>
+    <string name="outlet_la_reggia_phone">0039 0823 510244</string>
     <string name="outlet_la_reggia_description">Located in Marcianise, very close to A1 exit of Caserta Sud, this fashion outlet offers
         discounts from 30%% to 70%% on many brands. Restaurants, bars and a play ground are also present\n
         A shuttle from Naples is available, from Caserta line CLP 111.\n

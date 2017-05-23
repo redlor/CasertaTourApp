@@ -9,6 +9,8 @@
     <color name="header_text_color">#ff00</color>
     <color name="child_text_color">#000000</color>
     <color name="divider_color">#000000</color>
+    <color name="address_link_color">#0000EE</color>
+    <color name="phone_link_color">#00E676</color>
 </resources>
 
 

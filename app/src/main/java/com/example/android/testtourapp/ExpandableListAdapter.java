@@ -2,7 +2,10 @@ package com.example.android.testtourapp;
 
 import android.app.Dialog;
 import android.content.Context;
+import android.content.Intent;
+import android.graphics.Paint;
 import android.graphics.Typeface;
+import android.net.Uri;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -204,13 +207,13 @@ public class ExpandableListAdapter extends BaseExpandableListAdapter {
     public View getGroupView(int groupPosition, boolean isExpanded,
                              View convertView, ViewGroup parent) {
 
-        Item currentItem = (Item) getGroup(groupPosition);
+        final Item currentItem = (Item) getGroup(groupPosition);
 
         // Inflating header layout and setting text
         if (convertView == null) {
-            LayoutInflater infalInflater = (LayoutInflater) this._context
+            LayoutInflater layoutInflater = (LayoutInflater) this._context
                     .getSystemService(LAYOUT_INFLATER_SERVICE);
-            convertView = infalInflater.inflate(R.layout.header, parent, false);
+            convertView = layoutInflater.inflate(R.layout.header, parent, false);
         }
         // Getting and setting header title
         TextView header_text = (TextView) convertView.findViewById(R.id.header);
@@ -221,7 +224,7 @@ public class ExpandableListAdapter extends BaseExpandableListAdapter {
         imageView.setImageResource(currentItem.getImageResourceId());
 
         // Getting and setting address
-        TextView address = (TextView) convertView.findViewById(R.id.address);
+        final TextView address = (TextView) convertView.findViewById(R.id.address);
         ImageView addressIcon = (ImageView) convertView.findViewById(R.id.address_icon);
 
         // Getting and setting phone number
@@ -232,8 +235,20 @@ public class ExpandableListAdapter extends BaseExpandableListAdapter {
         // Check if the header has or not address
         if (currentItem.hasAddress()) {
             address.setText(currentItem.getAddress());
+            address.setPaintFlags(address.getPaintFlags() | Paint.UNDERLINE_TEXT_FLAG);
             address.setVisibility(View.VISIBLE);
             addressIcon.setVisibility(View.VISIBLE);
+            address.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    String mapAddress = "http://maps.google.co.in/maps?q=" + currentItem.getAddress();
+                    Uri mapUri = Uri.parse(mapAddress);
+                    Intent mapIntent = new Intent(Intent.ACTION_VIEW, mapUri);
+                    mapIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                    mapIntent.setPackage("com.google.android.apps.maps");
+                  _context.getApplicationContext().startActivity(mapIntent);
+                }
+            });
         } else {
             address.setVisibility(View.GONE);
             addressIcon.setVisibility(View.GONE);
@@ -242,8 +257,18 @@ public class ExpandableListAdapter extends BaseExpandableListAdapter {
         // Check if the header has or not phone number
         if (currentItem.hasPhoneNumber()) {
             phoneNumber.setText(currentItem.getPhoneNumber());
+            phoneNumber.setPaintFlags(phoneNumber.getPaintFlags() | Paint.UNDERLINE_TEXT_FLAG);
             phoneNumber.setVisibility(View.VISIBLE);
             phoneIcon.setVisibility(View.VISIBLE);
+            phoneNumber.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    Uri phoneUri = Uri.parse("tel:" + currentItem.getPhoneNumber());
+                    Intent phoneIntent = new Intent(Intent.ACTION_DIAL, phoneUri);
+                    phoneIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                    _context.getApplicationContext().startActivity(phoneIntent);
+                }
+            });
         } else {
             phoneNumber.setVisibility(View.GONE);
             phoneIcon.setVisibility(View.GONE);
