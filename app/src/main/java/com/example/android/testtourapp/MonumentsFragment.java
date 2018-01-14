@@ -69,8 +69,8 @@ public class MonumentsFragment extends Fragment {
 
         // Adding child data
         child1.add(new Child(R.drawable.reggia, R.drawable.reggia_stairs, R.drawable.hall, R.drawable.englishgarden, royalPalaceDescription, royalPalaceLink, backgroundIcon));
-        child2.add(new Child(R.drawable.sanleucio, R.drawable.sanleucioday, R.drawable.sanleuciosilk, R.drawable.sanleucionight, sanLeucioDescription, sanLeucioLink, backgroundIcon));
-        child3.add(new Child(R.drawable.casertavecchiahigh, R.drawable.casertavecchiacathedral, R.drawable.casertavecchiastreet, R.drawable.casertavecchianight, casertavecchiaDescription, casertavecchiaLink, backgroundIcon));
+        child2.add(new Child(R.drawable.sanleucio, R.drawable.sanleucio2, R.drawable.sanleuciosilk, R.drawable.sanleucio4, sanLeucioDescription, sanLeucioLink, backgroundIcon));
+        child3.add(new Child(R.drawable.casertavecchiahigh, R.drawable.casertavecchia2, R.drawable.casertavecchiastreet, R.drawable.casertavecchianight, casertavecchiaDescription, casertavecchiaLink, backgroundIcon));
 
         // Adding headers to list
         header.add(new Item(getString(R.string.royal_palace_name), R.drawable.monumenticon, child1));
